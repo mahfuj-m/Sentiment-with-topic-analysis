@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def get_data(data_group):
-    DATA_DIR='SemEval2018-Task1-all-data/English/EI-oc/'
+    DATA_DIR='EI-oc/'
     MAIN_FILE=os.path.join(DATA_DIR,data_group)
     TXT_FILES=os.listdir(MAIN_FILE)
     data=pd.DataFrame()
